@@ -146,7 +146,7 @@ const App = () => {
   return (
         <div className='container'>
           <div className='top'>
-            <div className='title'>WORDLE CLONE</div>
+            <div className='title'>WORD PLAY</div>
             <button className="reset-board" onClick={resetBoard}>{"\u27f3"}</button>
           </div>
           {message && <div className='message'>
