@@ -90,7 +90,7 @@ const App = () => {
     }
     else if(rowIndex+1 === 6){
       status="LOST";
-      handleMessage( "CORRECT WORD IS "+boardData.solution +" BETTER" )
+      handleMessage( "CORRECT WORD IS "+boardData.solution +" BETTER LUCK NEXT TIME " )
     }
     boardRowStatus.push(rowStatus);
     boardWords[rowIndex]=word;
